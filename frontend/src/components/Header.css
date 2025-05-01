@@ -1,0 +1,36 @@
+.header {
+    background-color: #0d6efd;
+    padding: 15px 0;
+    color: white;
+}
+
+.header-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 16px;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid white;
+}
